@@ -343,6 +343,7 @@
 
   .button__save {
     flex-direction: row;
+    margin-top: 0;
   }
 
   .text {
@@ -356,11 +357,7 @@
   .card__label {
     top: 24px;
     right: 25px;
-  }
-
-  .button__save {
-    margin-top: 0;
-  }
+  } 
 }
 
 
