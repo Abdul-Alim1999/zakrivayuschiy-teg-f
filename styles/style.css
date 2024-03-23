@@ -295,6 +295,7 @@
   align-items: center;
   gap: 8px;
   padding: 15px 20px;
+  margin-top: 20px;
 }
 
 .modal {
@@ -350,6 +351,15 @@
 
   .section__cards {
     gap: 55px;
+  }
+
+  .card__label {
+    top: 24px;
+    right: 25px;
+  }
+
+  .button__save {
+    margin-top: 0;
   }
 }
 
