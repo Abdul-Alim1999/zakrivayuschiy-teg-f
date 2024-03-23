@@ -67,7 +67,6 @@
   transition: opacity 0.3s ease;
   cursor: pointer;
   appearance: none;
-  /* font-size: clamp(0.875rem, 0.55rem + 1.3867vw, 1.4375rem); */
 }
 
 .theme-menu__button:not(:disabled)::after {
@@ -127,10 +126,9 @@
   max-width: 696px;
 }
 
-
 .card__title {
   font-size: 18px;
-  font-weight: 700;
+  font-variation-settings: "wght" var(--font-weight-title);
   line-height: 22px;
   padding: 3px 10px 7px;
   color: var(--color-accent);

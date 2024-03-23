@@ -8,6 +8,7 @@
   --color-button: #fff;
 
   --font-weight-main: 400;
+  --font-weight-title: 700;
 
   --color-text: var(--color-accent, #000);
   --bg-color: var(--color-white, #fff);
