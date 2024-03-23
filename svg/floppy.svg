@@ -1,8 +1,5 @@
 <svg width="28.000000" height="28.000000" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs/>
+	<symbol id='1' stroke='currentColor' fill='currentColor'>
 	<rect id="Rectangle 18" x="-0.500000" width="2.153846" height="2.153846" fill="#000000" fill-opacity="1.000000"/>
 	<rect id="Rectangle 17" x="-0.500000" y="2.153809" width="2.153846" height="2.153846" fill="#000000" fill-opacity="1.000000"/>
 	<rect id="Rectangle 19" x="-0.500000" y="4.307617" width="2.153846" height="2.153846" fill="#000000" fill-opacity="1.000000"/>
@@ -83,4 +80,5 @@
 	<rect id="Rectangle 50" x="27.500000" y="10.769043" width="2.153846" height="2.153846" transform="rotate(-180 27.500000 10.769043)" fill="#000000" fill-opacity="1.000000"/>
 	<rect id="Rectangle 51" x="27.500000" y="8.615234" width="2.153846" height="2.153846" transform="rotate(-180 27.500000 8.615234)" fill="#000000" fill-opacity="1.000000"/>
 	<rect id="Rectangle 52" x="27.500000" y="6.461426" width="2.153846" height="2.153846" transform="rotate(-180 27.500000 6.461426)" fill="#000000" fill-opacity="1.000000"/>
+	</symbol>
 </svg>

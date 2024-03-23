@@ -22,6 +22,7 @@
   background-size: cover;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-variation-settings: "wght" var(--font-weight-main);
 }
 
 .header {
@@ -256,7 +257,8 @@
   box-shadow: 2px 2px 0 0 var(--color-text);
 }
 
-.button__text {
+.button__text,
+.button__icon {
   color: var(--color-button);
   mix-blend-mode: difference;
 }
@@ -353,3 +355,14 @@
   }
 }
 
+
+@supports (
+  (-webkit-text-stroke: 1px var(--page-background-color, #ffffff)) or
+    (text-stroke: 1px var(--page-background-color, #ffffff))
+) {
+  .card__label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--bg-color);
+    text-stroke: 1px var(--bg-color);
+  }
+}
