@@ -387,8 +387,8 @@
 }
 
 @supports (
-  (-webkit-text-stroke: 1px var(--page-background-color, #ffffff)) or
-    (text-stroke: 1px var(--page-background-color, #ffffff))
+  (-webkit-text-stroke: 1px var(--bg-color)) or
+    (text-stroke: 1px var(--bg-color))
 ) {
   .card__label {
     text-shadow: none;
